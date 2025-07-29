@@ -1,0 +1,16 @@
+# Ignore Node modules
+**/node_modules/
+
+# Ignore environment files
+**/.env
+
+# Ignore log files
+*.log
+
+# Ignore dist folders (NestJS builds)
+**/dist/
+
+# Ignore IDE and OS-specific files
+.DS_Store
+*.swp
+.vscode/
