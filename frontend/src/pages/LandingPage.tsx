@@ -1,11 +1,6 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
 const LandingPage = () => {
   return (
     <>
-    <Navbar />
       <div className="bg-[#FFF8F0] text-[#2C3E50]">
 
         {/* <!-- 🌇 Hero Section --> */}
@@ -102,7 +97,6 @@ const LandingPage = () => {
         </section>
 
       </div>
-      <Footer />
     </>
   );
 };
