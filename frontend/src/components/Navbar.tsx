@@ -12,11 +12,11 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className="flex gap-6 items-center text-[#2C3E50] text-base font-medium">
-          <Link to="/write" className="hover:text-[#C0392B] transition">Shyari Likho</Link>
+          <Link to="/write" className="hover:text-[#C0392B] transition">Write Shyari</Link>
           <Link to="/posts" className="hover:text-[#C0392B] transition">Read Shayari</Link>
           <Link to="/about" className="hover:text-[#C0392B] transition">About Us</Link>
           <Link
-            to="/login"
+            to="/register"
             className="bg-[#C0392B] text-white px-4 py-1.5 rounded-full hover:bg-[#a93226] transition"
           >
             Register / Login
