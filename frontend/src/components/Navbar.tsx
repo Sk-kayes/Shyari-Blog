@@ -23,6 +23,11 @@ const Navbar = () => {
 
         {/* Right Section: Register & Login Buttons */}
         <div className="flex gap-3">
+        {/* Navigation Links */}
+        <div className="flex gap-6 items-center text-[#2C3E50] text-base font-medium">
+          <Link to="/write" className="hover:text-[#C0392B] transition">Write Shyari</Link>
+          <Link to="/posts" className="hover:text-[#C0392B] transition">Read Shayari</Link>
+          <Link to="/about" className="hover:text-[#C0392B] transition">About Us</Link>
           <Link
             to="/login"
             className="border-2 border-[#C0392B] text-[#C0392B] px-5 py-2 rounded-full font-semibold hover:bg-[#C0392B] hover:text-white transition-all duration-300"
@@ -32,6 +37,8 @@ const Navbar = () => {
           <Link
             to="/register"
             className="bg-[#C0392B] text-white px-5 py-2 rounded-full font-semibold shadow-md hover:bg-[#a93226] hover:shadow-lg transition-all duration-300"
+            to="/register"
+            className="bg-[#C0392B] text-white px-4 py-1.5 rounded-full hover:bg-[#a93226] transition"
           >
             Register
           </Link>
