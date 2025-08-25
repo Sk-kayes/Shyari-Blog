@@ -20,4 +20,13 @@ export default tseslint.config([
       globals: globals.browser,
     },
   },
+  {
+    files: ['**/*.tsx'],
+    languageOptions: {
+      ecmaVersion: 2020,
+      sourceType: 'module',
+      ecmaFeatures: { jsx: true },
+      globals: globals.browser,
+    },
+  },
 ])
